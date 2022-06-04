@@ -1,0 +1,15 @@
+sqlstart
+
+conda activate fcb
+
+rasa train
+
+rasa interactive
+
+rasa run --enable-api --cors "*"
+
+rasa run --enable-api --cors "*" debug
+
+rasa shell
+
+rasa visualize

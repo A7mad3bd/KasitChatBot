@@ -1,0 +1,263 @@
+version: "3.1"
+ 
+  ## Story -> Applied and reseach // About project .
+  ## blog
+  ## gui Adding questions
+  ## ppt
+  ## req
+  ## DB login
+  ## Heo evaluation 
+  ## Testing 
+
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: research_story
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: research
+  - action: utter_research
+
+- story: applied_story
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: applied
+  - action: utter_applied
+
+- story: news_submit
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: submit
+  - action: utter_submit
+
+
+- story: newstory3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Doctors
+  - action: utter_Doctors
+
+- story: newstory4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: upload
+  - action: utter_upload
+
+- story: newstory5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: publish
+  - action: utter_publish
+
+
+- story: newstory111
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deadline1
+  - action: utter_deadline1
+
+
+- story: newstory222
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: grading1
+  - action: utter_grading1
+
+
+- story: newstory333
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kinds1
+  - action: utter_kinds1
+
+- story: newstory4444
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: submit1
+  - action: utter_submit1
+
+- story: story1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: topics
+  - action: utter_topics  
+
+- story: story1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: members
+  - action: utter_members  
+
+
+- story: story2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sharing
+  - action: utter_sharing  
+
+- story: story3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: content
+  - action: utter_content  
+
+- story: story4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: font
+  - action: utter_font    
+
+
+- story: story5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: join
+  - action: utter_join  
+
+
+- story: story6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: kinds
+  - action: utter_kinds  
+
+
+- story: story7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: grading
+  - action: utter_grading  
+
+- story: story8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: deadline
+  - action: utter_deadline  
+
+- story: story9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: research1
+  - action: utter_research1  
+
+- story: story10
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: applied1
+  - action: utter_applied1  
+
+
+- story: story11
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: upload1
+  - action: utter_upload1  
+
+
+- story: story12
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Doctors1
+  - action: utter_Doctors1  
+
+- story: story13
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: publish1
+  - action: utter_publish1  
+
+
+- story: story14
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: join1
+  - action: utter_join1  
+
+
+- story: story15
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: topics1
+  - action: utter_topics1  
+
+
+- story: story16
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: sharing1
+  - action: utter_sharing1  
+
+- story: story17
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: font1
+  - action: utter_font1  
+
+
+- story: story18
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: members1
+  - action: utter_members1              
+
+
+
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Bot</title>
+  <link th:href="@{/css/chat.css}" rel="stylesheet" />
+  <link th:href="@{/css/header.css}" rel="stylesheet" />
+
+</head>
+
+<body>
+<header>
+  <nav>
+
+      <!--            <h2><a style="color: 000" href="/chatbot"> Home Page </a>-->
+      <div class="header">
+        <img src="logo.jpg" id="logo" alt="" width="90" height="90">
+        <div class="header-right">
+          <a class="active" href="/blog">Blog</a>
+          <a href="/common">Common Question</a>
+
+        </div>
+      </div>
+      </h2>
+
+  </nav>
+
+</header>
+  <script>!(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+        // Replace 1.x.x with the version that you want
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default(
+            {
+              selector: "#webchat",
+              initPayload: "/greet",
+              customData: { "language": "en" }, // arbitrary custom data. Stay minimal as this will be added to the socket
+              socketUrl: "http://localhost:5005/",
+              showFullScreenButton: true,
+              title: 'KASIT',
+              subtitle: 'Ask about graduation project',
+              profileAvatar: "faculty.jpg",
+              //embedded: true,
+              showMessageDate: true,
+              openLauncherImage: "faculty.jpg",
+              closeImage: "faculty.jpg",
+              inputTextFieldHint: "What's in your mind?...",
+              customMessageDelay: (message) => {
+                let delay = message.length * 40;
+                if (delay > 3 * 1000) delay = 3 * 1000;
+                if (delay < 800) delay = 800;
+                return delay;
+              },
+              params: { "storage": "session" }
+            },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+    })();
+  </script>
+</body>
+
+</html>

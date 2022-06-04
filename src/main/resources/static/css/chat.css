@@ -1,0 +1,17 @@
+#logo{
+    float: left;
+
+}
+
+nav {
+
+    background: #2191c0;
+
+}
+
+
+nav ul {
+    padding: 18px;
+    text-align: center;
+    margin:auto
+}
