@@ -1,0 +1,75 @@
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <title>Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    </style>
+    <link th:href="@{/css/blog.css}" rel="stylesheet"/>
+    <link th:href="@{/css/header.css}" rel="stylesheet"/>
+
+</head>
+<body>
+
+<header>
+    <nav>
+
+               <div class="header">
+        <img src="logo.jpg" id="logo" alt="" width="90" height="90">
+        <div class="header-right">
+            <a class="active" href="/chatbot">Home</a>
+            <a href="/common">Common Question</a>
+
+        </div>
+               </div>
+           </h2>
+    </nav>
+
+</header>
+<section>
+    <div id="logo1">
+    </div>
+    <h3>Ask a question</h3>
+    <div class="col-75">
+
+        <form action="/questions" method="post">
+            <input type="text" name="body" id="body"/></input></br>
+            <!--                        <textarea id="body" name="body" placeholder="Write question to answer it later"-->
+            <!--                                style="height:200px"></textarea>-->
+            <br>
+            <br>
+            <input type="submit" value="Add Question">
+        </form>
+    </div>
+    <div>
+
+        <br>
+        <br>
+        <ul class="comment-section" th:each="question: ${allquestions}">
+            <br><br><br><br><br><br><br><br><br><br><br>
+
+            <li class="comment user-comment">
+
+                <div class="info">
+                    <a href="#" th:text="${question?.appUser?.username}"></a>
+<!--                    <span th:text="${question?.createdAt}"></span>-->
+                </div>
+
+                <p th:text="${question?.body}"></p>
+
+            </li>
+            <ul>
+    </div>
+    <br>
+    <br><br> <br><br> <br><br><br><br>
+</section>
+<section>
+</section>
+<footer>
+    <div>
+        <h3> © Kasit Chat Bot </h3>
+    </div>
+</footer>
+</body>
+</html>

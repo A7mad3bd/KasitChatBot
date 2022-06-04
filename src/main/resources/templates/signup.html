@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <nav>
+        <div style="text-align: center;">
+            <!--            <button onclick="Promitquestion()">Click here to try JS code</button>-->
+        </div>
+        <ul>
+            <a></a>
+            <a></a>
+        </ul>
+    </nav>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Page</title>
+    <link th:href="@{/css/styles.css}" rel="stylesheet"/>
+<!--    <script th:src="@{/js/myjs.js}"></script>-->
+</head>
+<body>
+<form action="/signup" method="post">
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
+    <label for="firstName">FirstName</label>
+    <input type="firstName" name="firstName" id="firstName">
+    <label for="lastName">LastName</label>
+    <input type="lastName" name="lastName" id="lastName">
+    <label for="dateOfBirth">DateOfBirth</label>
+    <input type="dateOfBirth" name="dateOfBirth" id="dateOfBirth">
+    <label for="specialization">Specialization</label>
+    <input type="specialization" name="specialization" id="specialization">
+    <input type="submit">
+</form>
+</body>
+<footer>
+
+    <div>
+        <h6> &copy; 2022 All rights reserved </h6>    <h6> Sing Up page </h6>
+
+    </div>
+</footer>
+</html>

@@ -1,0 +1,191 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy 
+  - bot_challenge
+  - new
+  - research
+  - applied
+  - submit
+  - upload
+  - Doctors
+  - publish
+  - topics
+  - members
+  - sharing
+  - content
+  - font
+  - join
+  - kinds
+  - grading
+  - deadline
+  - research1
+  - applied1
+  - submit1
+  - upload1
+  - Doctors1
+  - publish1
+  - topics1
+  - members1
+  - sharing1
+  - content1
+  - font1
+  - join1
+  - kinds1
+  - grading1
+  - deadline1
+
+responses:
+  utter_greet:
+  - text: "Welcome to KASIT Graduation Project"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+
+  utter_research:
+  - text: "1.	Choose a question or problem area to research.
+          2.	Form a hypothesis and algorithms.
+          3.	Select a method, plan and collect the data.
+          4.	Analyze the data collected.
+          5.	Summaries your observations and draw a conclusion.
+          6.	Write a project report and communicate the results."
+
+  utter_applied:
+  - text: "Product-based planning means that you put the focus on tangible deliverables and outcomes, and plan the project from the perspective of your customers, rather than focusing on the action items within a project.
+           After choosing an idea and then implementing it by turning it into a software using code."
+ 
+  utter_submit:
+  - text: "Each group should submit two copies of the project's software (including source code files) and the documentation to the advisor. The advisor will retain one copy and submit the other to the department. A soft copy of the project’s documentation and the documentation should be uploaded to e-learning as well. The group is required to complete the project and to submit its deliverables to their advisor at least one week before the defense day."
+  
+  utter_upload:
+  - text: "Only one student uploads the final copy of the project to the e-learning system and sends another copy to the supervisor."
+  
+  utter_Doctors:
+  - text: "All the graduation projects' defenses will be scheduled in the last day of classes. A complete schedule for all the defenses will be announced at an early time. The schedule shows each group's defense time, locations, and examiners. Before the projects defense day, the department will announce two examiners for each group. The examiners will attend the project’s defense and provide their evaluation.
+In the project's defense, the advisor and the examiners are going to investigate the project's deliverables with the group. Then, they are going to complete the evaluation forms. These forms evaluate the students in two perspectives 1) group based 2) individual based. Finally, a final evaluation form is submitted to the department.
+"
+  utter_publish:
+  - text: "On the eLearning website or college announcements"
+  - text: "http://computer.ju.edu.jo/ar/arabic/Home.aspx"
+
+  utter_website:
+  - text: "http://computer.ju.edu.jo/ar/arabic/Home.aspx"  
+
+  utter_topics:
+  - text: "It will be shared college website or elearning"  
+
+  utter_sharing:
+  - text: "It is not allowed except in some cases. Please check from the head of the department"  
+
+  utter_content:
+  - text: "http://computer.ju.edu.jo/FacultyForms/KASIT%20Graduation%20Project%20Handbook2016.pdf"  
+
+  utter_font:
+  - text: "Text font style should be in "Times New Romans" and font size 12 point"  
+
+  utter_join:
+  - text: "Upon completion of 90 hours of study plan "  
+
+  utter_kinds:
+  - text: "Applied Projects and Research Projects"  
+
+  utter_grading:
+  - text: "All the graduation projects' defenses will be scheduled in the last day of classes. A complete schedule for all the defenses will be announced at an early time. The schedule shows each group's defense time, locations, and examiners. Before the projects defense day, the department will announce two examiners for each group. The examiners will attend the project’s defense and provide their evaluation.
+In the project's defense, the advisor and the examiners are going to investigate the project's deliverables with the group. Then, they are going to complete the evaluation forms. These forms evaluate the students in two perspectives 1) group based 2) individual based. Finally, a final evaluation form is submitted to the department.
+"  
+
+  utter_deadline:
+  - text: "http://computer.ju.edu.jo/ar/arabic/Home.aspx"  
+
+  utter_members:
+  - text: "Two To Four Students"   
+
+  utter_research1:
+  - text: "1)	اختر سؤالاً أو مشكلة للبحث.
+2)	تشكيل الفرضية والخوارزميات.
+3)	حدد طريقة وخطة وجمع البيانات.
+4)	تحليل البيانات التي تم جمعها.
+5)	لخص ملاحظاتك والاستنتاجات.
+6)	اكتب تقريرعن المشروع وانقل النتائج
+"  
+
+  utter_applied1:
+  - text: "تركز المشاريع التطبيقية على المخرجات و النتائج الملموسة ،
+  و التخطيط للمشروع من وجهة نظر المستخدم . 
+  وبعد اختيار الفكرة قم بتحويلها الى برنامج باستخدام الكود."  
+
+  utter_submit1:
+  - text: "يجب على كل مجموعة إرسال نسختين من المشروع (بما في ذلك ملفات الكود)
+   والوثائق إلى المشرف. سيحتفظ المشرف بنسخة ويقدم الأخرى للقسم.
+    يجب تحميل نسخة إلكترونية من المشروع والوثائق إلى نظام التعلم الإلكتروني أيضًا.
+    يتعين على المجموعة إكمال المشروع وتقديم مخرجاتها
+    إلى المشرف قبل أسبوع واحد على الأقل من يوم المناقشة."  
+
+  utter_upload1:
+  - text: "يرفع فقط طالب واحد النسخة النهائية للمشروع
+   على المكان المخصص للتسليم وارسال نسخة اخرى للمشرف"  
+
+  utter_Doctors1:
+  - text: "يحدد القسم مشرفي مشروع التخرج تلقائيا لكل فريق او يعرض الفريق فكرته 
+  على دكتور محدد و بعد موافقته يصبح هو مشرف الفريق ،
+  حيث يتراوح عدد المشرفين من واحد الى اثنين لكل فريق "  
+
+  utter_publish1:
+  - text: "على موقع ال elearning , إعلانات موقع الكلية"  
+
+  utter_sharing1:
+  - text: "غير مسموح إلا ببعض الحالات يرجى التأكد من الشروط من رئيس القسم"  
+
+  utter_content1:
+  - text: "6 تشابترات"  
+
+  utter_join1:
+  - text: "بعد إنهاء 90 ساعة دراسية على الأقل"  
+
+  utter_kinds1:
+  - text: "المشاريع التطبيقية و المشاريع البحثية"  
+
+  utter_grading1:
+  - text: "تتم جدولة جميع مشاريع التخرج في اليوم الاخير من المحاضرات 
+  . ثم يتم الاعلان عن الجدول النهائي الذي يحتوي و الوقت لكل مجموعة ،و المكان الحدد 
+  ،و المناقشين قبل المناقشة بيوم حيث يحدد القسم مشرفين اثنين لكل فريق لمناقشة المشروع 
+  . في يوم المناقشات ،يناقش الطلاب و المناقشين مخرجات المشروع و يتحققوا منها 
+  . ثم يملأ المناقشون استمارات التقييم التي تقيم الطلاب على اساس المجموعة
+   و على اساس فردي .ثم يتم تقديم نموذج التقييم النهائي للقسم ."  
+
+  utter_deadline1:
+  - text: "http://computer.ju.edu.jo/ar/arabic/Home.aspx"  
+
+  utter_members1:
+  - text: " من طالبين ولغاية 4 طلاب في كل مجموعة"    
+
+  utter_topics1:
+  - text: "سيتم نشرها على موقع الكلية"  
+
+  utter_font1:
+  - text: "Times New Romans + 12 حجم"    
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+

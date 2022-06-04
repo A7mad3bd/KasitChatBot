@@ -1,0 +1,181 @@
+<html><head>
+    <meta charset="utf-8">
+    <title>Common questions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link th:href="@{/bootstrap/css/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/font-awesome/css/font-awesome.min.css}" rel="stylesheet" />
+    <link th:href="@{/js/jquery-1.10.2.min.js}"  />
+    <link th:href="@{/bootstrap/js/bootstrap.min.js}"  />
+
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body style="" data-new-gr-c-s-check-loaded="14.1017.0" data-gr-ext-installed="">
+
+<div class="container">
+
+<div class="page-header">
+    <h1>Graduation FAQ <small style="color: black">Most common questions about graduation projects</small></h1>
+</div>
+
+
+<div class="container">
+    <br>
+
+
+    
+
+    <br>
+
+    <div class="panel-group" id="accordion">
+        <div class="faqHeader">Common questions</div>
+        <div class="panel panel-default" style="font-size: 25px">
+            <div class="panel-heading">
+                <h2 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" style="font-size: 25px;">How many members are allowed to be in each group?</a>
+                </h2>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">Two to four Students</div>
+            </div>
+        </div>
+        <div class="panel panel-default" style="font-size: 25px">
+            <div class="panel-heading">
+                <h2 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsetwo" aria-expanded="false" style="font-size: 25px;">Is sharing between departments allowed? </a>
+                </h2>
+            </div>
+            <div id="collapsetwo" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">It is not allowed except in some cases. Please check from the head of the department</div>
+            </div>
+        </div>
+        <div class="panel panel-default" style="font-size: 25px">
+            <div class="panel-heading">
+                <h2 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsethree" aria-expanded="false" style="font-size: 25px;"> What is the font length and format for the documentation of graduation project?</a>
+                </h2>
+            </div>
+            <div id="collapsethree" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">Text font style should be in "Times New Romans" and font size 12 point</div>
+            </div>
+        </div>
+        <div class="panel panel-default" style="font-size: 25px">
+            <div class="panel-heading">
+                <h2 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" style="font-size: 25px;">what is the kinds of graduation projects ?</a>
+                </h2>
+            </div>
+            <div id="collapsefour" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">Applied Projects and Research Projects</div>
+            </div>
+        </div>
+
+        
+        <div class="panel panel-default" style="font-size: 25px">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" style="font-size: 25px">When can I join Project 1? </a>
+                </h4>
+            </div>
+            <div id="collapseEleven" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">Upon completion of 90 hours of study plan
+                </div>
+            </div>
+        </div>
+
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+    </div>
+</div>
+
+<style>
+body {
+  background-image: url('123.jpg');
+}
+    .faqHeader {
+        font-size: 40px;
+        margin: 30px;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "\e072"; /* "play" icon */
+        float: right;
+        color: #ff0000;
+        font-size: 25px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
+</style>
+
+<!-- Bootstrap FAQ - END -->
+
+</div>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></body></html>

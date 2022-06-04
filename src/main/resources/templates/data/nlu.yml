@@ -1,0 +1,289 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+
+- intent: research
+  examples: |
+    - What is the nature of research graduation projects and the mechanism of work on it?
+    - How the research graduation projects be like what?
+    - research
+
+- intent: applied
+  examples: |
+    - What is the nature of the applied/product graduation projects and the mechanism of work on it?
+    - How the applied/product graduation projects be like what?
+    - product
+    - applied
+
+- intent: submit
+  examples: |
+    - Where will the project be uploaded?
+    - Where will be is the submission of the project?
+    - Where can I submit the project?
+    - submit
+
+- intent: upload
+  examples: |
+    - How many students are required to upload a project?
+    - How many ones are required to upload the project?
+    - upload
+    
+- intent: Doctors
+  examples: |
+    - How many graduate project supervisors?
+    - How many doctors will grade graduation projects?   
+    - Doctors
+
+- intent: publish
+  examples: |
+    - Where and when are appointments and discussions published? 
+    - publish  
+
+- intent: topics
+  examples: |
+    - What are the suggested topics for this semester? 
+    - suggested topics
+
+- intent: members
+  examples: |
+    - How many members are allowed to participate in each group?
+    - How many students are allowed to participate in each group?
+    - many members 
+    - many students 
+    - number of members
+
+- intent: sharing
+  examples: |
+    - Is sharing between departments allowed? 
+    - sharing  
+
+- intent: content
+  examples: |
+    - What are the contents of Project 1?
+    - content project 1
+
+- intent: font
+  examples: |
+    - What is the font length and format?
+    - length 
+    - format 
+    - font
+
+
+- intent: join
+  examples: |
+    - When can I join Project 1? 
+    - join Project 1          
+
+- intent: kinds
+  examples: |
+    - what is the kinds of graduation projects ?
+    - kinds of graduation projects
+    - kinds 
+
+- intent: grading
+  examples: |
+    - What are the principles of project grading?
+    - project grading
+    - grading 
+
+- intent: deadline
+  examples: |
+    - When is the deadline for project submission?
+    - deadline for project submission
+    - deadline     
+
+- intent: Arabic
+  examples: |
+    - مرحبا
+   
+- intent: research1
+  examples: |
+    - ما طبيعة مشاريع التخرج البحثية وآلية العمل عليه؟ 
+    - ما مبدأ مشاريع التخرج البحثية ؟
+    - ما نمط مشاريع التخرج البحثية ؟
+    - كيف نعمل المشروع البحثي؟ 
+    - البحثية
+    - البحثي 
+
+- intent: applied1
+  examples: |
+    - ما طبيعة مشاريع التخرج التطبيقية وآلية العمل عليه؟
+    - ما مبدأ مشاريع التخرج التطبيقية ؟
+    - ما نمط مشاريع التخرج التطبيقية ؟
+    - كيف نعمل المشروع التطبيقي ؟
+    - التطبيقية 
+    - التطبيقي  
+
+
+- intent: submit1
+  examples: |
+    - أين سيتم رفع المشروع ؟
+    - مكان رفع المشروع ؟ 
+    - كيف أسلم مشروع التخرج؟ 
+
+
+- intent: upload1
+  examples: |
+    - كم طالب مطلوب منه رفع مشروع  ؟
+    - كم واحد مطلوب يرفع المشروع  ؟
+    - رفع المشروع
+    - تسليم المشروع
+
+- intent: Doctors1
+  examples: |
+    - كم عدد مشرفين مشروع التخرج ؟
+    - كم مشرف على مشروع التخرج ؟
+
+
+- intent: grading1 
+  examples: |
+    - كيف يكون آلية تقييم مشروع التخرج؟
+    - كم دكتور يقيم مشروع التخرج ؟
+
+- intent: kinds1 
+  examples: |
+    - ما هي أقسام المشاريع 
+    - ما هي أنواع المشاريع 
+
+- intent: publish1 
+  examples: |
+    - أين ومتى يتم نشر المواعيد والمناقشات ؟ 
+    - المواعيد والمناقشات ؟   
+
+- intent: join1 
+  examples: |
+    - متى يمكن الإلتحاق بمشروع 1
+    - شروط مشروع 1      
+    - تفاصيل مشرع 1
+
+- intent: deadline1 
+  examples: |
+    - ما آخر موعد لتسليم المشروع
+    - موعد تسليم المشروع     
+    - متى يسلم المشروع     
+
+- intent: topics1 
+  examples: |
+    - ما المواضيع المقترحة لهذا الفصل  ؟ 
+    - أفكار مشاريع التخرج    
+    - المواضيع المقترحة
+    - مواضيع المشروع      
+
+
+- intent: sharing1 
+  examples: |
+    - هل مسموح التشارك بين الأقسام ؟
+    - أقسام مختلفة      
+    - طلاب من أقسام مختلفة 
+
+
+- intent: font1 
+  examples: |
+    - ما طول الخط وتنسيقه ؟ 
+    - طول الخط     
+    - الخط  
+
+
+- intent: members1 
+  examples: |
+    - كم عدد الطلاب في المشروع
+    - الحد المسموع للطلاب     
+    - عدد الطلاب   
+    - طالب لوحده   
+    - ما عدد الأعضاء المسموح بمشاركتهم بكل مجموعة؟ 
+
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head style="margin-bottom:100px"  >
+    <img src="logo.jpg" id="logo" alt="" width="75" height="75">
+    <nav>
+        <ul>
+            <h2>
+                <a></a>
+            </h2>
+        </ul>
+    </nav>
+    </nav>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kasit Chat Bot</title>
+    <link th:href="@{/css/styles.css}" rel="stylesheet"/>
+</head >
+<body>
+
+<h1 style="margin-top: 30px">Kasit Chat Bot</h1>
+
+<form action="/perform_login" method="post" style="margin-top:100px ; margin-bottom:100px"  >
+    <div align="center">
+        <div id="d23">
+            <div>
+                <table id="loginGrid" class="ui-panelgrid ui-widget" role="grid">
+                    <thead class="ui-panelgrid-header">
+                    <tr class="ui-widget-header" role="row">
+                        <td colspan="2" role="columnheader" class="ui-panelgrid-cell ui-widget-header">
+                            <label id="loginform" class="ui-outputlabel ui-widget">Signing in
+                            </label>
+                        </td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="ui-widget-content" role="row">
+                        <td role="gridcell" class="ui-panelgrid-cell"><label for="username" class="ui-outputlabel ui-widget">Username</label></td>
+                        <td role="gridcell" class="ui-panelgrid-cell"><input type="text" name="username" id="username" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all">
+
+                        </td>
+                    </tr>
+                    <tr class="ui-widget-content" role="row">
+                        <td role="gridcell" class="ui-panelgrid-cell"><label for="password" class="ui-outputlabel ui-widget">Password
+
+                                                                             </label></td>
+                        <td role="gridcell" class="ui-panelgrid-cell"><input type="password" name="password" id="password"
+                                                                             class="ui-inputfield ui-password ui-widget ui-state-default ui-corner-all"
+                                                                             >
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <button style="margin-top: -20px" id="loginform2"
+                        class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"
+                        type="submit"><span class="ui-button-text ui-c">Sign in</span></button>
+                <!-- <button id="signup" hidden name="loginform:3"
+                        class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"
+                         type="submit"><span
+                            class="ui-button-text ui-c">sign up</span></button> -->
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+<footer style="margin-top:100px">
+
+    <div>
+        <h3 > &copy; Kasit Chat Bot </h3>
+
+    </div>
+</footer>
+</html>
+
